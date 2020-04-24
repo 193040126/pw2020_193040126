@@ -20,19 +20,19 @@ $elektronik = query("SELECT * FROM elektronik where id = $id")[0];
 <html>
 
 <head>
-	<title>Latihan 5c</title>
+	<title>Latihan 6e</title>
 </head>
 
 <body>
 	<div class="container">
 		<div class="gambar">
-			<img src="../assets/img/<?= $elektronik["foto"]; ?>">
+			<img src="../assets/img/<?= $elektronik["foto"]; ?>" width="250" height="200">
 		</div>
 		<div class="keterangan">
-			<p><?= $elektronik["merk"]; ?></p>
-			<p><?= $elektronik["tipe"]; ?></p>
-			<p><?= $elektronik["tahun_rilis"]; ?></p>
-			<p><?= $elektronik["harga"]; ?></p>
+			<p>Merk : <?= $elektronik["merk"]; ?></p>
+			<p>Tipe : <?= $elektronik["tipe"]; ?></p>
+			<p>Tahun Rilis : <?= $elektronik["tahun_rilis"]; ?></p>
+			<p>Harga : <?= $elektronik["harga"]; ?></p>
 		</div>
 
 		<button class="tombol-kembali"><a href="../index.php">Kembali</a></button>

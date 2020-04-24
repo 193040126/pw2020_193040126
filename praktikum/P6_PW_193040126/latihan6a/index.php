@@ -10,7 +10,7 @@ $elektronik = query("SELECT * FROM elektronik");
 <html>
 
 <head>
-	<title>Latihan 5c</title>
+	<title>Latihan 6a</title>
 	<style type="text/css">
 		img {
 			width: 200px;
