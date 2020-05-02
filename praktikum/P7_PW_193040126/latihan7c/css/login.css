@@ -1,0 +1,36 @@
+.container {
+  border: 1px solid black;
+  text-align: left;
+  width: 300px;
+  margin: auto;
+  margin-top: 200px;
+  background-color: maroon;
+  color: white;
+  border-radius: 5%;
+  
+}
+.container .remember {
+  text-align: left;
+  margin-left: 26px;
+}
+.container p{
+  margin-left: 30px;
+}
+.login {
+  margin-top: 20px;
+  text-align: center;
+}
+body{
+  background-color: black;
+}
+.pw {
+  margin-bottom: 20px;
+}
+.us {
+  margin-top: 25px;
+}
+.container .registrasi {
+  margin-bottom: 25px;
+  text-decoration: none;
+}
+

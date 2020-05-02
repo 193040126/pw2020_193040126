@@ -1,0 +1,25 @@
+.container {
+  border: 1px solid black;
+  text-align: left;
+  width: 300px;
+  margin: auto;
+  margin-top: 200px;
+  background-color: maroon;
+  color: white;
+  border-radius: 5%;
+}
+.container p {
+  margin-left: 45px;
+}
+body {
+  background-color: black;
+}
+.container .register {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+  color: black;
+}
+.container .use {
+  margin-top: 25px;
+}
