@@ -41,7 +41,7 @@ $elektronik = query("SELECT * FROM elektronik where id = $id")[0];
 			<p>Harga : Rp.<?= $elektronik["harga"]; ?>,-</p>
 		</div>
 
-		<button class="tombol-kembali"><a href="../index.php">Kembali</a></button>
+		<button class="tombol-kembali"><a href="../index.php" style="font-weight: 900; text-decoration: none; color: maroon;">KEMBALI</a></button>
 
 	</div>
 
