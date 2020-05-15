@@ -23,6 +23,7 @@ if (isset($_POST['login'])) {
 </head>
 
 <body>
+  <button type="submit" style="background-color: maroon; font-weight: 900;"><a href="../index.php" style=" color: white; text-decoration: none;">KEMBALI KE HALAMAN KULIAH</a></button>
   <h3>Form Login</h3>
   <?php if (isset($login['error'])) : ?>
     <p style="color: red; font-style:italic;"><?= $login['pesan']; ?></p>
@@ -32,13 +33,13 @@ if (isset($_POST['login'])) {
       <li>
         <label>
           Username :
-          <input type="text" name="username" autofocus autocomplete="off" required>
+          <input type="text" name="username" autofocus autocomplete="off" required placeholder="admin">
         </label>
       </li>
       <li>
         <label>
           Password :
-          <input type="password" name="password" required>
+          <input type="password" name="password" required placeholder="12345">
         </label>
       </li>
       <li>

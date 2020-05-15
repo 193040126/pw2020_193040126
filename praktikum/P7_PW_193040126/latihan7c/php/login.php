@@ -77,11 +77,11 @@ if (isset($_POST['submit'])) {
 
       <div class="us">
         <p><label for="username"></label></p>
-        <p><input type="text" name="username" autofocus autocomplete="off" placeholder="Username" size="30"></p>
+        <p><input type="text" name="username" autofocus autocomplete="off" placeholder="Username : asep" size="30"></p>
       </div>
       <div class="pw">
         <p><label for="password"></label></p>
-        <p><input type="password" name="password" autofocus autocomplete="off" placeholder="Password" size="30"></p>
+        <p><input type="password" name="password" autofocus autocomplete="off" placeholder="Password : balon" size="30"></p>
       </div>
 
 

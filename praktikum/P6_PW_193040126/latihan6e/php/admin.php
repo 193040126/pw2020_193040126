@@ -24,6 +24,7 @@ if (isset($_POST["cari"])) {
 </head>
 
 <body>
+  <button type="submit" style="background-color: maroon; font-weight: 900;"><a href="../index.php" style=" color: white; text-decoration: none;">KEMBALI</a></button>
   <div class="add">
     <a href="tambah.php"><button>Tambah Data</button></a>
   </div> <br>

@@ -52,12 +52,12 @@ if (isset($_POST['submit'])) {
       <tr>
         <td><label for="username">Username</label></td>
         <td>:</td>
-        <td><input type="text" name="username"></td>
+        <td><input type="text" name="username" placeholder="asep"></td>
       </tr>
       <tr>
         <td><label for="password">Password</label></td>
         <td>:</td>
-        <td><input type="password" name="password"></td>
+        <td><input type="password" name="password" placeholder="balon"></td>
       </tr>
     </table>
 

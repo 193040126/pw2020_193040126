@@ -24,9 +24,10 @@ $elektronik = query("SELECT * FROM elektronik where id = $id")[0];
 </head>
 
 <body>
+
 	<div class="container">
 		<div class="gambar">
-			<img src="../assets/img/<?= $elektronik["foto"]; ?>">
+			<img src="../assets/img/<?= $elektronik["foto"]; ?>" width="250">
 		</div>
 		<div class="keterangan">
 			<p><?= $elektronik["merk"]; ?></p>

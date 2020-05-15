@@ -67,7 +67,7 @@ $elek = query("SELECT * FROM elektronik WHERE id = $id")[0];
       <br>
       <button type="submit" name="ubah" id="id">Ubah Data</button>
       <button type="submit">
-        <a href="../index.php">Kembali</a>
+        <a href="admin.php">Kembali</a>
       </button>
     </ul>
   </form>

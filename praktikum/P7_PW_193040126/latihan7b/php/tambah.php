@@ -54,7 +54,7 @@ if (isset($_POST['tambah'])) {
       <br>
       <button type="submit" name="tambah">Tambah Data</button>
       <button type="submit">
-        <a href="../index.php">Kembali</a>
+        <a href="admin.php">Kembali</a>
       </button>
     </ul>
   </form>

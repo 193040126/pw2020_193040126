@@ -10,6 +10,7 @@ $elektronik = query("SELECT * FROM elektronik");
 <html>
 
 <head>
+	<button type="submit" style="background-color: maroon; font-weight: 900;"><a href="../p5.php" style=" color: white; text-decoration: none;">KEMBALI KE HALAMAN PERTEMUAN 5</a></button>
 	<title>Latihan 5c</title>
 	<style type="text/css">
 		img {

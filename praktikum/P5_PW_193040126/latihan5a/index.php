@@ -21,6 +21,7 @@ $result = mysqli_query($conn, "SELECT * FROM elektronik");
 </head>
 
 <body>
+	<button type="submit" style="background-color: maroon; font-weight: 900;"><a href="../p5.php" style=" color: white; text-decoration: none;">KEMBALI KE HALAMAN PERTEMUAN 5</a></button>
 	<h2>Daftar Barang Elektronik Toko Pecah Barang</h2>
 
 	<div class="container">

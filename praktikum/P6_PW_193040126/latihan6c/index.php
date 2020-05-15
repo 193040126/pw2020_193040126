@@ -20,6 +20,7 @@ $elektronik = query("SELECT * FROM elektronik");
 </head>
 
 <body>
+	<button type="submit" style="background-color: maroon; font-weight: 900;"><a href="../p6.php" style=" color: white; text-decoration: none;">KEMBALI KE HALAMAN PERTEMUAN 6</a></button>
 	<div class="container">
 		<?php foreach ($elektronik as $elek) : ?>
 			<p class="tipe">

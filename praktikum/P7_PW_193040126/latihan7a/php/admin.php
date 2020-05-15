@@ -24,6 +24,7 @@ if (isset($_POST["cari"])) {
 </head>
 
 <body>
+
   <div class="logout">
     <a href="logout.php" onclick="return confirm('apakah anda yakin keluar dari halaman admin?')"><button>logout</button></a>
   </div>

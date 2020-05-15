@@ -31,6 +31,7 @@ $mahasiswa = $rows;
 </head>
 
 <body>
+  <button type="submit" style="background-color: maroon; font-weight: 900;"><a href="p10.php" style=" color: white; text-decoration: none;">KEMBALI KE HALAMAN PERTEMUAN 10</a></button>
   <h3>Daftar mahasiswa</h3>
   <table border="1" cellpadding="10" cellspacing="0">
     <tr>
@@ -53,7 +54,7 @@ $mahasiswa = $rows;
         <td><?= $m['email']; ?></td>
         <td><?= $m['jurusan']; ?></td>
         <td>
-          <a href="">ubah</a> | <a href="">hapus</a>
+          <a href="" style="text-decoration: none;">ubah</a> | <a href="" style="text-decoration: none;">hapus</a>
         </td>
       </tr>
     <?php endforeach; ?>

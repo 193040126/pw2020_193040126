@@ -1,29 +1,31 @@
-<?php 
-	//menghubungkan dengan file php lainnya
-	require 'php/functions.php';
+<?php
+//menghubungkan dengan file php lainnya
+require 'php/functions.php';
 
-	//melakukan query
-	$elektronik = query("SELECT * FROM elektronik");
- ?>
+//melakukan query
+$elektronik = query("SELECT * FROM elektronik");
+?>
 
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Latihan 5b</title>
 	<style type="text/css">
-		img{
+		img {
 			width: 200px;
 			height: 300px;
 		}
-		
 	</style>
 </head>
+
 <body>
+	<button type="submit" style="background-color: maroon; font-weight: 900;"><a href="../p5.php" style=" color: white; text-decoration: none;">KEMBALI KE HALAMAN PERTEMUAN 5</a></button>
 	<h2>Daftar Barang Elektronik Toko Pecah Barang</h2>
 
 	<div class="container">
 		<table border="1" cellspacing="0" cellpadding="10">
-			<tr bgcolor="maroon" align="center" >
+			<tr bgcolor="maroon" align="center">
 				<td><b>NO</b></td>
 				<td><b>FOTO</b></td>
 				<td><b>MERK</b></td>
@@ -39,13 +41,14 @@
 					<td><img src="assets/img/<?= $elek["foto"]; ?>"></td>
 					<td><?= $elek["merk"] ?></td>
 					<td><?= $elek["tipe"] ?></td>
-					<td><?= $elek["tahun rilis"] ?></td>
+					<td><?= $elek["tahun_rilis"] ?></td>
 					<td><?= $elek["harga"] ?></td>
 				</tr>
-			<?php $i++ ?>
+				<?php $i++ ?>
 			<?php endforeach; ?>
 
-		</table> 
+		</table>
 	</div>
 </body>
+
 </html>s

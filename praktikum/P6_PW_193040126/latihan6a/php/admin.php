@@ -17,6 +17,8 @@ $elektronik = query("SELECT * FROM elektronik");
 </head>
 
 <body>
+  <button type="submit" style="background-color: maroon; font-weight: 900;"><a href="../index.php" style=" color: white; text-decoration: none;">KEMBALI</a></button>
+  <br>
   <table border="1" cellpadding="13" cellspacing="0">
     <tr>
       <th>#</th>

@@ -35,6 +35,7 @@ $elektronik = query("SELECT * FROM elektronik");
 					<a href="index.php" data-target="mobile-nav" class="sidenav-trigger"></a>
 					<ul id="nav-mobile" class="right hide-on-med-and-down">
 						<li style="border: 1px solid black; background-color: navy;color: white; border-radius: 30%"><a href="php/login.php">LOGIN ADMIN</a></li>
+						<li style="border: 1px solid black; background-color: navy;color: white; border-radius: 30%"><a href="../p7.php">KEMBALI</a></li>
 					</ul>
 				</div>
 			</div>

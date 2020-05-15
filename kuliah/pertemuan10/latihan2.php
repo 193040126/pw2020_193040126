@@ -16,6 +16,7 @@ $mahasiswa = query("SELECT * FROM mahasiswa");
 </head>
 
 <body>
+  <button type="submit" style="background-color: maroon; font-weight: 900;"><a href="p10.php" style=" color: white; text-decoration: none;">KEMBALI KE HALAMAN PERTEMUAN 10</a></button>
   <h3>Daftar mahasiswa</h3>
   <table border="1" cellpadding="10" cellspacing="0">
     <tr>

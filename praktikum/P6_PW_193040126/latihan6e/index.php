@@ -25,6 +25,7 @@ if (isset($_POST["cari"])) {
 </head>
 
 <body>
+	<button type="submit" style="background-color: maroon; font-weight: 900;"><a href="../p6.php" style=" color: white; text-decoration: none;">KEMBALI KE HALAMAN PERTEMUAN 6</a></button>
 	<div class="in">
 		<a href="php/admin.php"><button>Masuk Ke Halaman Admin</button></a>
 	</div> <br>

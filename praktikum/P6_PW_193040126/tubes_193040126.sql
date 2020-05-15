@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 14, 2020 at 12:08 PM
--- Server version: 10.4.11-MariaDB
--- PHP Version: 7.2.26
+-- Waktu pembuatan: 14 Bulan Mei 2020 pada 06.21
+-- Versi server: 10.4.11-MariaDB
+-- Versi PHP: 7.2.26
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -25,7 +25,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `elektronik`
+-- Struktur dari tabel `elektronik`
 --
 
 CREATE TABLE `elektronik` (
@@ -33,16 +33,15 @@ CREATE TABLE `elektronik` (
   `foto` varchar(100) NOT NULL,
   `merk` varchar(100) NOT NULL,
   `tipe` varchar(100) NOT NULL,
-  `tahun rilis` int(4) NOT NULL,
+  `tahun_rilis` int(4) NOT NULL,
   `harga` int(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `elektronik`
+-- Dumping data untuk tabel `elektronik`
 --
 
-INSERT INTO `elektronik` (`id`, `foto`, `merk`, `tipe`, `tahun rilis`, `harga`) VALUES
-(1, 'ps5.jpg', 'SONY', 'PS5', 2020, 7000000),
+INSERT INTO `elektronik` (`id`, `foto`, `merk`, `tipe`, `tahun_rilis`, `harga`) VALUES
 (2, 'ps4.jpg', 'SONY', 'PS4', 2018, 4299000),
 (3, 'acerpre.jpg', 'ACER', 'TRITON 300 PT315-51', 2018, 14999000),
 (4, 'asusrog.jpg', 'ASUS', 'ROG STRIX G531GT', 2018, 14499000),
@@ -51,27 +50,61 @@ INSERT INTO `elektronik` (`id`, `foto`, `merk`, `tipe`, `tahun rilis`, `harga`) 
 (7, 'kulkas.jpg', 'POLYTRON', 'BELLEZA', 2018, 2750000),
 (8, 'tvchanghong.jpg', 'CHANGHONG', 'CHANGHONG 32 INCH L324H4', 2017, 2000000),
 (9, 'redminote8.jpg', 'XIAOMI', 'REDMI NOTE 8', 2019, 2299000),
-(10, 'ip11.jpg', 'APPLE', 'IPHONE 11', 2019, 13499000);
+(10, 'ip11.jpg', 'APPLE', 'IPHONE 11', 2019, 13499000),
+(20, 'ps5.jpg', 'SONY', 'PS5', 2020, 7000000);
+
+-- --------------------------------------------------------
+
+--
+-- Struktur dari tabel `user`
+--
+
+CREATE TABLE `user` (
+  `id` int(11) NOT NULL,
+  `username` varchar(64) NOT NULL,
+  `password` varchar(256) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data untuk tabel `user`
+--
+
+INSERT INTO `user` (`id`, `username`, `password`) VALUES
+(5, 'asep', '$2y$10$G9.vZx5TlPLTFeHpVynn6.8QLac4Ge1pQ2s0w0uogy5nlUL64/XOq'),
+(6, '123', '$2y$10$yq6o9.5xvVEd9XNZKOQoq.7.Nk3aUMlde5670m5liGMt3rGwvxkxG'),
+(8, 'atta', '$2y$10$jzAjYcuH7laFVqDa78WHI.EhYei4zMM77grFcG/v8BiaEcQwYPeju');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `elektronik`
+-- Indeks untuk tabel `elektronik`
 --
 ALTER TABLE `elektronik`
   ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- Indeks untuk tabel `user`
+--
+ALTER TABLE `user`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT untuk tabel yang dibuang
 --
 
 --
--- AUTO_INCREMENT for table `elektronik`
+-- AUTO_INCREMENT untuk tabel `elektronik`
 --
 ALTER TABLE `elektronik`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
+
+--
+-- AUTO_INCREMENT untuk tabel `user`
+--
+ALTER TABLE `user`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
