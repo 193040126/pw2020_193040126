@@ -2,7 +2,7 @@
 
 function  koneksi()
 {
-  return mysqli_connect('localhost', 'root', '', 'pw_193040126');
+  return mysqli_connect('localhost', 'pw19126', 'd19i30v40a126', 'pw19126_pw_193040126');
 }
 
 function query($query)
@@ -112,10 +112,10 @@ function hapus($id)
   $conn = koneksi();
   //menghapus gambar di folder img
   $mhs = query("SELECT * FROM mahasiswa WHERE id = $id");
-  if ($mhs['gambar'] != 'nophoto.png'){
+  if ($mhs['gambar'] != 'nophoto.png') {
     unlink('img/' . $mhs['gambar']);
   }
-  
+
 
 
   mysqli_query($conn, "DELETE FROM mahasiswa WHERE id = $id") or die(mysqli_error($conn));
@@ -138,7 +138,7 @@ function ubah($data)
     return false;
   }
 
-  if ($gambar == 'nophoto.png'){
+  if ($gambar == 'nophoto.png') {
     $gambar = $gambar_lama;
   }
 

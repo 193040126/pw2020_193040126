@@ -2,8 +2,8 @@
 //function untuk melakukan koneksi ke database
 function koneksi()
 {
-	$conn = mysqli_connect("localhost", "root", "") or die("koneksi ke DB gagal");
-	mysqli_select_db($conn, "tubes_193040126") or die("Database salah!");
+	$conn = mysqli_connect("localhost", "pw19126", "d19i30v40a126") or die("koneksi ke DB gagal");
+	mysqli_select_db($conn, "pw19126_tubes_193040126") or die("Database salah!");
 
 	return $conn;
 }
