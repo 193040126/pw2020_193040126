@@ -28,6 +28,9 @@
   <form action="" class="center">
     <ul>
       <li>
+        <a href="pertemuan1-7" class="waves-effect waves-red btn-large white" style="margin: auto; margin-top: 50px; color: black; font-weight: 900;">PERTEMUAN 1-7</a>
+      </li>
+      <li>
         <a href="pertemuan9/p9.php" class="waves-effect waves-red btn-large white" style="margin: auto; margin-top: 50px; color: black; font-weight: 900;">PERTEMUAN 9</a>
       </li>
       <li>
